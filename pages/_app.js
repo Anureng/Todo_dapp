@@ -3,7 +3,7 @@ import '../styles/globals.css'
 
 const App = ({ Component, pageProps }) => (
   <ToDoListProvider>
-    <div>
+    <div className='bg-gradient-to-r from-cyan-500 to-blue-500"'>
       <Component {...pageProps} />
     </div>
   </ToDoListProvider>
